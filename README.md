@@ -4,7 +4,7 @@ The initial goal was to create a program that reprograms itself.
 
 ## Overview
 
-A C program that is compiled to a binary/executable. The binary can be executed normally without arguments to work normally. Or supply `rewrite` argument followed by the new code.
+A C program that, when run with an argument, rewrites its own binary so that next time it runs, it prints that new string without needing the argument. No config files. No dynamic memory.
 
 Imagine a `Hello World` example and you want to produce a different outcome without rebuilding the binary to produce `Hallo Jason`. Same size, same binary functionality.
 

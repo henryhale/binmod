@@ -3,11 +3,13 @@
 The initial goal was to create a program that reprograms itself.
 
 ## Overview
-A C program that compile to a binary. The binary can be executed normally without arguments to work normally. Or supply `rewrite` argument followed by the new code.
+
+A C program that is compiled to a binary/executable. The binary can be executed normally without arguments to work normally. Or supply `rewrite` argument followed by the new code.
 
 Imagine a `Hello World` example and you want to produce a different outcome without rebuilding the binary to produce `Hallo Jason`. Same size, same binary functionality.
 
 Something like:
+
 ```sh
 # normal execution
 $ ./main

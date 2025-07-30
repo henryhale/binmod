@@ -46,3 +46,5 @@ Furthermore, it is not possible to write to the same binary file as long as the 
 
 - Binary file patching already exists with tools like `xxd`
 - The OS enforces strict mechanisms when executing programs
+
+:warning: _work in progress_

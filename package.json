@@ -1,0 +1,7 @@
+{
+    "name": "binmod",
+    "main": "compute.js",
+    "type": "module",
+    "scripts": {},
+    "packageManager": "pnpm@10.13.1"
+}

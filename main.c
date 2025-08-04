@@ -2,14 +2,14 @@
 #include<string.h>
 
 // fixed storage location for the program's code
-const char code_slot[] = "AAA";
+const char code_slot[] = "AAAAAAAAAA";
 
 // the computed location of `code_slot` in resultant binary
 //
 // confirm memory address below using:
 // - manually use either tool: hexedit or xdd
 // - use pre-written script: node ./compute.js
-#define CODE_SLOT_ADDR 0x2020
+#define CODE_SLOT_ADDR 0x2008
 
 // function to update binary's code contents
 int update_code(char* filename, char* data);
@@ -18,7 +18,6 @@ int update_code(char* filename, char* data);
 void print_code();
 
 int main(int argc, char** argv) {
-    printf("Hello world!\n");
 
     if (argc == 3 && strcmp(argv[1], "rewrite") == 0) {
         // update with new code

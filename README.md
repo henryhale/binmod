@@ -62,7 +62,7 @@ First 16 bytes from 0x2008
 00002008: 4141 4141 4141 4141 4141 0072 6577 7269  AAAAAAAAAA.rewri
 ```
 
-Update `CODE_SLOT_ADDR` within the program with the calculated addres.
+Update `CODE_SLOT_ADDR` within the program with the calculated address and build the program again.
 ```c
 #define CODE_SLOT_ADDR 0x2008
 ```

@@ -1,6 +1,6 @@
 # reprogram
 
-The initial goal was to create a program that reprograms itself.
+An attempt to create a program that reprograms itself.
 
 ## Overview
 
@@ -102,4 +102,7 @@ cannot open file: Text file busy
 - Binary file patching already exists with tools like `xxd`
 - The OS enforces strict mechanisms when executing programs
 
-:warning: _work in progress_
+## Conclusion
+
+While the search for an alternative approach still stands, 
+I am archiving this repository until something substantial comes up.
